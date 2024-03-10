@@ -52,6 +52,7 @@ Follow these instructions to get the project up and running on your local machin
 ## Example
 Here's an example of a valid JSON request body:
 
+
 ```json
 {
   "html": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <link rel=\"stylesheet\" href=\"styles.css\">\n  <title>My Portfolio</title>\n</head>\n<body>\n  <!-- Navbar -->\n  <nav id=\"navbar\">\n    <ul>\n      <li><a href=\"#welcome-section\">Home</a></li>\n      <li><a href=\"#projects\">Projects</a></li>\n      <li><a href=\"https://github.com/yourusername\" target=\"_blank\" id=\"profile-link\">GitHub</a></li>\n    </ul>\n  </nav>\n\n  <!-- Welcome Section -->\n  <section id=\"welcome-section\">\n    <div class=\"welcome-container\">\n      <h1>Welcome to My Portfolio</h1>\n    </div>\n  </section>\n\n  <!-- Projects Section -->\n  <section id=\"projects\">\n    <div class=\"project-tile\">\n      <h2>Project Title</h2>\n      <p>Description of the project.</p>\n      <a href=\"#\">View Project</a>\n    </div>\n  </section>\n\n  <script src=\"script.js\"></script>\n</body>\n</html>",
