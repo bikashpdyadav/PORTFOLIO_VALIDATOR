@@ -39,7 +39,7 @@ Follow these instructions to get the project up and running on your local machin
 
 1. Clone the repository:
    bash
-   git clone https://github.com/yourusername/portfolio-validator.git
+   git clone https://github.com/bikashpdyadav/PORTFOLIO_VALIDATOR.git
 
 2. Navigate to the project directory:
    bash
